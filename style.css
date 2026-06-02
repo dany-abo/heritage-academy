@@ -1,0 +1,10 @@
+
+li a{
+    color: #64748B;
+}
+a:hover{
+    transition: 0.3s;
+    color:black;
+    
+}
+
