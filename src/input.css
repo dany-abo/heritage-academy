@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@source "../index.html";
+@source "../index2.html";
+
 @layer utilities {
   .underline-animate {
     position: relative;

@@ -7,206 +7,213 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600;700&display=swap" rel="stylesheet">
-     <link href="./src/output.css" rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<header class="fixed top-0 left-0 right-0 z-50 flex flex-row h-15 shadow-[0_0_30px_0_rgba(0,0,0,0.2)] bg-[#FFFFFFE5] ">
-        <div class="container flex flex-row justify-between items-center " >
-        <div class="title">
-            <h1 class="text-2xl font-bold pl-15 capitalize">heritage academy</h1>
-        </div>
-        <div class="">
-        <nav class="mx-auto">
-    <ul class="flex gap-10.5 capitalize font-bold ">
-          <li>
-              <a href="index.html" class="opacity-60 duration-400 hover:opacity-100 underline-animate">about us</a>
-            </li>
-          <li class="">
-            <a href="index2.html" class=" text-black duration-400 underline-animate underline-active">parents</a>
-          </li>
-       
-    </ul>
-    </nav>
+<body class="overflow-x-hidden bg-[#eee]">
 
+    <header class="fixed top-0 left-0 right-0 z-50 flex flex-row h-15 shadow-[0_0_30px_0_rgba(0,0,0,0.2)] bg-[#FFFFFFE5]">
+        <div class="container mx-auto flex flex-row justify-between items-center px-4">
+            <div class="title">
+                <h1 class="text-lg sm:text-2xl font-bold capitalize">heritage academy</h1>
             </div>
-            <div class="btns flex list-none gap-4 capitalize">
+
+            <button id="mobile-menu-btn-2" type="button" aria-label="Open menu" class="flex lg:hidden flex-col gap-1 p-2">
+                <span class="w-6 h-0.5 bg-black"></span>
+                <span class="w-6 h-0.5 bg-black"></span>
+                <span class="w-6 h-0.5 bg-black"></span>
+            </button>
+
+            <div class="hidden lg:block">
+                <nav class="mx-auto">
+                    <ul class="flex gap-10.5 capitalize font-bold">
+                        <li>
+                            <a href="index.html" class="opacity-60 duration-400 hover:opacity-100 underline-animate">about us</a>
+                        </li>
+                        <li>
+                            <a href="index2.html" class="text-black duration-400 underline-animate underline-active">parents</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="btns hidden lg:flex list-none gap-4 capitalize">
                 <li>
                     <a href="" class="w-20 h-10 flex items-center justify-center">login</a>
                 </li>
-                <li class="">
-                    <a href="" class="bg-[#1c1c27] text-amber-50 w-32 h-10 flex items-center justify-center
-                     rounded-[10px]">enroll now</a>
+                <li>
+                    <a href="" class="bg-[#1c1c27] text-amber-50 w-32 h-10 flex items-center justify-center rounded-[10px]">enroll now</a>
                 </li>
             </div>
         </div>
     </header>
-<body class="overflow-x-hidden bg-[#eee]">
-    <section class="pt-[96px] bg-white h-[500.70001220703125px]">
-    <div class="h-[471px] flex gap-[23px] ml-[60px] mt-[60px]">
-        <div class="">
-            <h3 class="bg-[#86F2E4] w-[326.79998779296875px] h-[32] text-[#006F66]">ESTABLISHED 1998 • VIRTUAL SINCE 2012</h3>
-            <h1 class="w-[768px] h-[106px] text-[48px] font-bold">Tradition reimagined for the digital frontier.</h1>
-            <p class="w-[635px] h-[7px] text-[18px] mt-[60px]">At Heritage Academy, we bridge the gap between the storied tradition of elite
-            private education and the limitless potential of virtual learning. We cultivate
-            intellectual curiosity in a global classroom.</p>
-            </div>
-        <div class="absolute -right-12 top-0 rotate-20">
-            <svg class="mt-[10px] w-70 h-70 opacity-15" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-                <path fill="currentColor" d="M12 3L1 9l11 6l9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/>
-            </svg>
+
+    <div id="mobile-menu-2" class="hidden fixed inset-0 bg-white z-40 pt-20">
+        <div class="flex flex-col items-center gap-8 p-8">
+            <a href="index.html" class="text-xl font-bold capitalize text-[#64748B]">about us</a>
+            <a href="index2.html" class="text-xl font-bold capitalize text-black">parents</a>
+            <a href="" class="w-full max-w-xs h-12 flex items-center justify-center border border-black rounded-[10px] mt-4">login</a>
+            <a href="" class="w-full max-w-xs h-12 flex items-center justify-center bg-[#1c1c27] text-amber-50 rounded-[10px]">enroll now</a>
         </div>
     </div>
-    </section>
-    <section class="pt-[110px] h-[751px]">
-        <div class="grid grid-cols-[2fr_1fr] gap-5 m-[0_60px_0]">
-            <div class="rounded-[12px] h-[231px] bg-white rounded-[12px] border-1 border-[#C6C6CD] grid gap-[2px]">
-                <h2 class="text-[32px] ml-[20px] mt-[30px]">Our Mission</h2>
-                <p class="w-[720.6666259765625px] ml-[20px]">To provide a world-class, rigorous academic environment that transcends physical
-                    boundaries, empowering students from all corners of the globe to achieve academic
-                    excellence through cutting-edge technology and mentorship.</p>
-            </div>
-            <div class="rounded-[12px] h-[231px] bg-[#131B2E] rounded-[12px] grid gap-[2px] text-[#FFFFFF]">
-                <h2 class="ml-[20px] mt-[33px] text-[24px] text-white">Global Reach</h2>
-                <p class="w-[309px] ml-[20px] mb-[10px] opacity-80">Our community spans 45 countries,
-                bringing diverse perspectives to every
-                seminar.</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-3 gap-5 m-[20px_60px_0]">
-            <div class="bg-[#EAE7E9] h-[208.80999755859375px] w-[389.3333740234375px] rounded-[12px] border-1 border-[#C6C6CD]">
-                <svg class="text-[#006A61] m-[20px_20px_0]" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
-                   <path fill="currentColor" d="m10.6 16.6l7.05-7.05l-1.4-1.4l-5.65 5.65l-2.85-2.85l-1.4 1.4zM12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/>
-                </svg>    
-                <h3 class="text-[#1B1B1D] text-[14px] font-[400] ml-[20px] mt-[10px]">Academic Integrity</h3>
-                <p class="w-[323px] text-[#45464D] ml-[20px] mt-[10px]">Maintaining the highest standards of
-                proctored assessment and intellectual
-                honesty.</p>
-            </div>
-            <div class="bg-[#EAE7E9] h-[208.80999755859375px] w-[389.3333740234375px] rounded-[12px] border-1 border-[#C6C6CD]">
-                <svg class="text-[#006A61] m-[20px_20px_0]" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
-                 <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2m0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3s-3-1.34-3-3s1.34-3 3-3m0 14.2a7.2 7.2 0 0 1-6-3.22c.03-1.99 4-3.08 6-3.08c1.99 0 5.97 1.09 6 3.08a7.2 7.2 0 0 1-6 3.22M13.5 8.5h-3v1h1.5v1.5h1.5z"/>
-                </svg>
-                <h3 class="text-[#1B1B1D] text-[14px] font-[400] ml-[20px]  mt-[10px]">Curiosity Driven</h3>
-                <p class="w-[323px] text-[#45464D] ml-[20px] mt-[10px]">Fostering a love for learning that goes
-                    beyond the standardized curriculum.</p>
-            </div>
-            <div class="bg-[#EAE7E9] h-[196.80999755859375px] w-[389.3333740234375px] rounded-[12px] border-1 border-[#C6C6CD]">
-                 <svg class="text-[#006A61] m-[20px_20px_0]" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3s1.34 3 3 3m-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5S5 6.34 5 8s1.34 3 3 3m0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5m8 0c-.29 0-.62.02-.97.05c1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5"/>
-                 </svg>
-                <h3 class="text-[#1B1B1D] text-[14px] font-[400] ml-[20px]  mt-[10px]">Vibrant Community</h3>
-                <p class="w-[323px] text-[#45464D] ml-[20px] mt-[10px]">Structured social clubs and collaborative
-                    projects to build lifelong bonds.</p>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="flex justify-center items-center flex-col gap-[10px]">
-            <h2 class="text-[32px] text-[#1B1B1D]">Our History</h2>
-            <p class="text-[16px] text-[#45464D]">Decades of excellence, adapted for the modern era.</p>
-        </div>
-        <div class="img font-['Newsreader'] relative">
-             <!-- الخط الرأسي -->
-             <div class="absolute left-1/2 top-0 h-full w-[2px] bg-gray-300 transform -translate-x-1/2 z-0"></div>
 
-     <div class="flex flex-row-reverse gap-5 relative z-10">
-                <img class="mr-[210px] mt-[60px] rounded-[8px] w-[384px] h-[384px] " src="1Screenshot 2026-05-02.png" alt="">
-                <div class="w-[48px] h-[48px] bg-[#000000] text-white rounded-[50%] flex justify-center items-center p-0.5 mt-[200px] mr-[30px]">1998</div>
-                <div class="flex flex-col justify-center items-center mr-[50px]">
-                <h3 class="ml-[410px] font-bold">Foundation </h3>
-                <p class="text-[#1B1B1D]">The brick-and-mortar Heritage Academy opens its doors in Cambridge.</p>
-            </div>
-        </div>
-            <div class="flex flex-row gap-5 relative z-10">
-                <img class="ml-[210px] mt-[60px] rounded-[8px] w-[384px] h-[384px] " src="2Screenshot 2026-05-02 210002.png" alt="">
-                 <div class="w-[48px] h-[48px] bg-[#006A61] text-white rounded-[50%] flex justify-center items-center p-0.5 mt-[200px] ml-[30px]">2012</div>
-                <div class="flex flex-col justify-center items-center ml-[50px]">
-                <h3 class="mr-[410px] font-bold"> The Virtual Pivot</h3>
-                <p class="text-[#1B1B1D]">Recognizing the need for flexibility, we launched our first digital campus.</p>
-            </div>
-            </div>
-            <div class="flex flex-row-reverse gap-5 relative z-10">
-                <img class="mr-[210px] mt-[60px] rounded-[8px] w-[384px] h-[384px]" src="3Screenshot 2026-05-02 210044.png" alt="">
-                 <div class="w-[48px] h-[48px] bg-[#000000] text-white rounded-[50%] flex justify-center items-center p-0.5 mt-[200px] mr-[30px]">1998</div>
-                <div class="flex flex-col justify-center items-center mr-[50px]">
-                <h3 class="ml-[410px] font-bold ">Global Accreditation</h3>
-                <p class="text-[#1B1B1D] w-[536px] ml-[50px]">Our virtual curriculum received identical accreditation to top-tier physical schools</p>
-            </div>
+    <section class="pt-24 sm:pt-28 bg-white min-h-[400px] relative overflow-hidden">
+        <div class="container mx-auto px-4 sm:px-8 py-12 sm:py-16 relative">
+            <h3 class="inline-block bg-[#86F2E4] text-[#006F66] text-xs sm:text-sm px-3 py-1.5 rounded">ESTABLISHED 1998 • VIRTUAL SINCE 2012</h3>
+            <h1 class="mt-6 text-3xl sm:text-4xl lg:text-5xl font-bold max-w-3xl leading-tight">Tradition reimagined for the digital frontier.</h1>
+            <p class="mt-6 sm:mt-10 text-base sm:text-lg max-w-2xl">At Heritage Academy, we bridge the gap between the storied tradition of elite
+            private education and the limitless potential of virtual learning. We cultivate
+            intellectual curiosity in a global classroom.</p>
+            <div class="absolute -right-8 sm:-right-12 top-0 rotate-20 pointer-events-none hidden sm:block">
+                <svg class="mt-2 w-40 h-40 lg:w-70 lg:h-70 opacity-15" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12 3L1 9l11 6l9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/>
+                </svg>
             </div>
         </div>
     </section>
-    <section class="  h-[780px] bg-white" >
-        <div class="flex flex-col gap-5 mt-[100px] pt-[100px] ml-[100px]">
-            <h2 class="text-[39px]">Leadership Team</h2>
-            <p class="w-[630.3300170898438px]">Guided by seasoned educators and visionary technologists committed to the future of
-                academic excellence.</p>
-        </div>
-        <div class="grid grid-cols-4 gap-5 ml-[100px] mr-[100px] mt-[50px]">
-            <div class="flex flex-col">
-                <img class="grayscale hover:grayscale-0 w-[280px] h-[350px] rounded-[8px]" src="4.png" alt="">
-                <h4 class="font-['Newsreader'] mt-[10px] text-[24px]">Dr. Alistair Vaughn</h4>
-                <p class="text-[#006A61] text-[16px]">Headmaster</p>
-                
+
+    <section class="py-12 sm:py-16 lg:py-24">
+        <div class="container mx-auto px-4 sm:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-5">
+                <div class="rounded-[12px] bg-white border border-[#C6C6CD] p-5 sm:p-6">
+                    <h2 class="text-2xl sm:text-[32px]">Our Mission</h2>
+                    <p class="mt-4 max-w-3xl">To provide a world-class, rigorous academic environment that transcends physical
+                        boundaries, empowering students from all corners of the globe to achieve academic
+                        excellence through cutting-edge technology and mentorship.</p>
+                </div>
+                <div class="rounded-[12px] bg-[#131B2E] text-white p-5 sm:p-6">
+                    <h2 class="text-xl sm:text-2xl">Global Reach</h2>
+                    <p class="mt-4 opacity-80">Our community spans 45 countries,
+                    bringing diverse perspectives to every
+                    seminar.</p>
+                </div>
             </div>
-            <div class="flex flex-col">
-                <img class="grayscale hover:grayscale-0 w-[280px] h-[350px] rounded-[8px]" src="3.png" alt="">
-                <h4 class="font-['Newsreader'] mt-[10px] text-[24px]">Sarah Jenkins</h4>
-                <p class="text-[#45464D] text-[16px]">Board Member • EdTech Strategy</p>
-               
-            </div>
-            <div class="flex flex-col">
-                <img class="grayscale hover:grayscale-0 w-[280px] h-[350px] rounded-[8px]" src="2.png" alt="">
-                <h4 class="font-['Newsreader'] mt-[10px] text-[24px]">Michael Chen</h4>
-                <p class="text-[#45464D] text-[16px]">Board Member • Global Operations</p>
-             
-            </div>
-            <div class="flex flex-col">
-                <img class="grayscale hover:grayscale-0 w-[280px] h-[350px] rounded-[8px]" src="1.png" alt="">
-                <h4 class="font-['Newsreader'] mt-[10px] text-[24px]">Elena Rodriguez</h4>
-                <p class="text-[#45464D] text-[16px] w-[280px]">Board Member • Academic Innovation</p>
-                
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+                <div class="bg-[#EAE7E9] rounded-[12px] border border-[#C6C6CD] p-5">
+                    <svg class="text-[#006A61]" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m10.6 16.6l7.05-7.05l-1.4-1.4l-5.65 5.65l-2.85-2.85l-1.4 1.4zM12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/>
+                    </svg>
+                    <h3 class="text-[#1B1B1D] text-sm mt-3">Academic Integrity</h3>
+                    <p class="text-[#45464D] mt-2">Maintaining the highest standards of
+                    proctored assessment and intellectual
+                    honesty.</p>
+                </div>
+                <div class="bg-[#EAE7E9] rounded-[12px] border border-[#C6C6CD] p-5">
+                    <svg class="text-[#006A61]" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2m0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3s-3-1.34-3-3s1.34-3 3-3m0 14.2a7.2 7.2 0 0 1-6-3.22c.03-1.99 4-3.08 6-3.08c1.99 0 5.97 1.09 6 3.08a7.2 7.2 0 0 1-6 3.22M13.5 8.5h-3v1h1.5v1.5h1.5z"/>
+                    </svg>
+                    <h3 class="text-[#1B1B1D] text-sm mt-3">Curiosity Driven</h3>
+                    <p class="text-[#45464D] mt-2">Fostering a love for learning that goes
+                        beyond the standardized curriculum.</p>
+                </div>
+                <div class="bg-[#EAE7E9] rounded-[12px] border border-[#C6C6CD] p-5 sm:col-span-2 lg:col-span-1">
+                    <svg class="text-[#006A61]" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3s1.34 3 3 3m-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5S5 6.34 5 8s1.34 3 3 3m0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5m8 0c-.29 0-.62.02-.97.05c1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5"/>
+                    </svg>
+                    <h3 class="text-[#1B1B1D] text-sm mt-3">Vibrant Community</h3>
+                    <p class="text-[#45464D] mt-2">Structured social clubs and collaborative
+                        projects to build lifelong bonds.</p>
+                </div>
             </div>
         </div>
     </section>
-    <section class="pt-[100px] h-[580px]">
-        <div class="bg-[#131B2E] w-[1024px] h-[306px]  my-0 mx-auto rounded-2xl">
-            <div class="flex flex-col gap-5  items-center pt-[50px]">
-                <h2 class="font-['Newsreader'] text-[32px]  text-white">Become part of our heritage.</h2>
-                <p class="w-[571px] text-white opacity-80">Applications for the upcoming academic year are now open. Secure your place in<br>
-                    <span class="block text-center">our global community.</span></p>
+
+    <section class="py-12 sm:py-16 px-4">
+        <div class="flex justify-center items-center flex-col gap-2 text-center mb-12">
+            <h2 class="text-2xl sm:text-[32px] text-[#1B1B1D]">Our History</h2>
+            <p class="text-base text-[#45464D]">Decades of excellence, adapted for the modern era.</p>
+        </div>
+        <div class="max-w-5xl mx-auto font-['Newsreader'] flex flex-col gap-16 lg:gap-24">
+            <div class="flex flex-col lg:flex-row-reverse items-center gap-6 lg:gap-8">
+                <img class="w-full max-w-sm rounded-[8px]" src="1Screenshot 2026-05-02.png" alt="">
+                <div class="w-12 h-12 bg-black text-white rounded-full flex justify-center items-center shrink-0 text-sm font-bold">1998</div>
+                <div class="text-center lg:text-left flex-1">
+                    <h3 class="font-bold text-xl">Foundation</h3>
+                    <p class="text-[#1B1B1D] mt-2">The brick-and-mortar Heritage Academy opens its doors in Cambridge.</p>
+                </div>
             </div>
-            <div class="flex justify-center items-center mt-[50px] gap-5">
-                <button class="h-[50px] w-[214.83999633789062px] text-white bg-[#006A61] rounded-[5px]">Request Prospectus</button>
-                <button class="h-[50px] w-[189.88999938964844px] text-white border border-white rounded-[5px]">Start Application</button>
+            <div class="flex flex-col lg:flex-row items-center gap-6 lg:gap-8">
+                <img class="w-full max-w-sm rounded-[8px]" src="2Screenshot 2026-05-02 210002.png" alt="">
+                <div class="w-12 h-12 bg-[#006A61] text-white rounded-full flex justify-center items-center shrink-0 text-sm font-bold">2012</div>
+                <div class="text-center lg:text-left flex-1">
+                    <h3 class="font-bold text-xl">The Virtual Pivot</h3>
+                    <p class="text-[#1B1B1D] mt-2">Recognizing the need for flexibility, we launched our first digital campus.</p>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row-reverse items-center gap-6 lg:gap-8">
+                <img class="w-full max-w-sm rounded-[8px]" src="3Screenshot 2026-05-02 210044.png" alt="">
+                <div class="w-12 h-12 bg-black text-white rounded-full flex justify-center items-center shrink-0 text-sm font-bold">2020</div>
+                <div class="text-center lg:text-left flex-1">
+                    <h3 class="font-bold text-xl">Global Accreditation</h3>
+                    <p class="text-[#1B1B1D] mt-2">Our virtual curriculum received identical accreditation to top-tier physical schools.</p>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="h-[253px] bg-[#F8FAFC] pt-[80px] flex justify-between">
-        <div class="ml-[50px] flex flex-col gap-3">
-            <h2 class="text-[20px] font-bold">Heritage Academy</h2>
-            <p class="text-[#64748B]">© 2024 Heritage Academy. Shaping the future through digital excellence.</p>
+
+    <section class="py-16 lg:py-24 bg-white px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-4 max-w-2xl">
+                <h2 class="text-2xl sm:text-[39px]">Leadership Team</h2>
+                <p>Guided by seasoned educators and visionary technologists committed to the future of
+                    academic excellence.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 lg:mt-14">
+                <div class="flex flex-col items-center sm:items-start text-center sm:text-left">
+                    <img class="grayscale hover:grayscale-0 w-full max-w-[280px] aspect-[4/5] object-cover rounded-[8px]" src="4.png" alt="">
+                    <h4 class="font-['Newsreader'] mt-3 text-xl sm:text-2xl">Dr. Alistair Vaughn</h4>
+                    <p class="text-[#006A61]">Headmaster</p>
+                </div>
+                <div class="flex flex-col items-center sm:items-start text-center sm:text-left">
+                    <img class="grayscale hover:grayscale-0 w-full max-w-[280px] aspect-[4/5] object-cover rounded-[8px]" src="3.png" alt="">
+                    <h4 class="font-['Newsreader'] mt-3 text-xl sm:text-2xl">Sarah Jenkins</h4>
+                    <p class="text-[#45464D]">Board Member • EdTech Strategy</p>
+                </div>
+                <div class="flex flex-col items-center sm:items-start text-center sm:text-left">
+                    <img class="grayscale hover:grayscale-0 w-full max-w-[280px] aspect-[4/5] object-cover rounded-[8px]" src="2.png" alt="">
+                    <h4 class="font-['Newsreader'] mt-3 text-xl sm:text-2xl">Michael Chen</h4>
+                    <p class="text-[#45464D]">Board Member • Global Operations</p>
+                </div>
+                <div class="flex flex-col items-center sm:items-start text-center sm:text-left">
+                    <img class="grayscale hover:grayscale-0 w-full max-w-[280px] aspect-[4/5] object-cover rounded-[8px]" src="1.png" alt="">
+                    <h4 class="font-['Newsreader'] mt-3 text-xl sm:text-2xl">Elena Rodriguez</h4>
+                    <p class="text-[#45464D]">Board Member • Academic Innovation</p>
+                </div>
+            </div>
         </div>
-        <div class="">
-            <nav class="flex">
-                <ul class="flex gap-5 mt-[30px]">
-                    <li>
-                        <a class="text-[#64748B]" href="">Contact Us</a>
-                    </li>
-                    <li>
-                        <a class="text-[#64748B]" href="">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a class="text-[#64748B]" href="">Terms of Service</a>
-                    </li>
-                    <li>
-                        <a class="text-[#64748B]" href="">Academic Calendar</a>
-                    </li>
-                    <li>
-                        <a class="text-[#64748B]" href="">Support</a>
-                    </li>
+    </section>
+
+    <section class="py-16 lg:py-24 px-4">
+        <div class="bg-[#131B2E] w-full max-w-5xl mx-auto rounded-2xl p-8 sm:p-12">
+            <div class="flex flex-col gap-4 items-center text-center">
+                <h2 class="font-['Newsreader'] text-2xl sm:text-[32px] text-white">Become part of our heritage.</h2>
+                <p class="max-w-xl text-white opacity-80">Applications for the upcoming academic year are now open. Secure your place in our global community.</p>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-center items-center mt-8 gap-4">
+                <button class="w-full sm:w-auto h-12 px-8 text-white bg-[#006A61] rounded-[5px]">Request Prospectus</button>
+                <button class="w-full sm:w-auto h-12 px-8 text-white border border-white rounded-[5px]">Start Application</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#F8FAFC] pt-12 pb-8 px-4">
+        <div class="container mx-auto flex flex-col lg:flex-row justify-between gap-8">
+            <div class="flex flex-col gap-3">
+                <h2 class="text-xl font-bold">Heritage Academy</h2>
+                <p class="text-[#64748B] text-sm">© 2024 Heritage Academy. Shaping the future through digital excellence.</p>
+            </div>
+            <nav>
+                <ul class="flex flex-wrap gap-4 sm:gap-5">
+                    <li><a class="text-[#64748B] text-sm" href="">Contact Us</a></li>
+                    <li><a class="text-[#64748B] text-sm" href="">Privacy Policy</a></li>
+                    <li><a class="text-[#64748B] text-sm" href="">Terms of Service</a></li>
+                    <li><a class="text-[#64748B] text-sm" href="">Academic Calendar</a></li>
+                    <li><a class="text-[#64748B] text-sm" href="">Support</a></li>
                 </ul>
             </nav>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
